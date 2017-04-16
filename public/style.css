@@ -1,0 +1,63 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  background-color: white;
+}
+
+.logo {
+  width: 50px;
+}
+
+header {
+  margin-bottom: 25px;
+  border-bottom: 1px solid lightgrey;
+}
+
+h1 {
+  font-weight: bold;
+  color: pink;
+}
+
+.joke {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.answer {
+  font-style: italic;
+  visibility: hidden;
+}
+
+.answerVisible {
+  visibility: visible;
+}
+
+p {
+  max-width: 600px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: pink;
+}
+

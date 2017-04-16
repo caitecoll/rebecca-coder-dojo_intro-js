@@ -1,0 +1,25 @@
+{
+  "name": "beginner-javascript-name-bubbles",
+  "version": "0.0.1",
+  "description": "RebeccaCoderDojo: Intro to Javascript",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "engines": {
+    "node": "6.9.x"
+  },
+  "repository": {
+    "url": "https://gomix.com/#!/project/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "gomix",
+    "express",
+    "coderdojo"
+  ]
+}
