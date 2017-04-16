@@ -1,0 +1,49 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Intro to Javascript</title>
+    
+    <link id="favicon" rel="icon" href="https://cdn.gomix.com/e8119815-789c-4df8-833d-3ff0e5153505%2Frebeccacoderdojo_logo.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="/style.css">
+    
+    <script src="/client.js"></script>
+    
+  </head>
+  
+  <body>
+    
+    <header>
+      <img class="logo" src="https://cdn.gomix.com/e8119815-789c-4df8-833d-3ff0e5153505%2Frebeccacoderdojo_logo.png"/>
+      <h1>World's Best Joke Machine</h1>
+    </header>
+
+    <main>
+      <div class="joke">
+        <p class="question">What do librarians take with them when they go fishing?</p>
+        <p id="answer1" class="answer">Bookworms!</p>
+        <button id="answerButton1" type="button" onclick="toggleAnswer('answerButton1', 'answer1')">Show Answer</button>
+      </div>
+      
+      <div class="joke">
+        <p class="question">Why didn't the chicken cross the road?</p>
+        <p id="answer2" class="answer">Because there was a KFC on the other side!</p>
+        <button id="answerButton2" type="button" onclick="toggleAnswer('answerButton2', 'answer2')">Show Answer</button>
+      </div>
+      
+      <div class="joke">
+        <p class="question">How do all the oceans say hello to each other?</p>
+        <p id="answer3" class="answer">They wave!</p>
+        <button id="answerButton3" type="button" onclick="toggleAnswer('answerButton3', 'answer3')">Show Answer</button>
+      </div>
+    </main>
+
+    <footer></footer>
+
+  </body>
+  
+</html>
